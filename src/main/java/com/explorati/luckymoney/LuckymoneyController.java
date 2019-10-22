@@ -17,6 +17,9 @@ public class LuckymoneyController {
 
     @Autowired
     private LuckymoneyRepository luckymoneyRepository;
+
+    @Autowired
+    private LuckymoneyService luckymoneyService;
     /**
      * 获取红包列表
      */
@@ -56,5 +59,10 @@ public class LuckymoneyController {
             return luckymoneyRepository.save(luckymoney);
         }
         return null;
+    }
+
+    @PostMapping("/luckymoneys/two")
+    public void createTwo() {
+        luckymoneyService.createTwo();
     }
 }
