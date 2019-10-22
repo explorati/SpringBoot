@@ -1,0 +1,7 @@
+1.直接run
+2.在命令行切换到项目目录->mvn spring-boot:run
+3.项目部署时的启动
+	mvn clean package
+	java -jar 打包之后名称   如：
+	java -jar E:\SpringBoot\SpringBoot\target\luckymoney-0.0.1-SNAPSHOT.jar
+	也可启动
