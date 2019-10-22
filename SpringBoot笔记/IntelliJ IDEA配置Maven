@@ -1,0 +1,8 @@
+由于没有用默认的C:\Users\Administrator\.m2\repository
+
+所以打开IntelliJ IDEA之后
+File -> settings -> Build,Execution,Deployment -> Build Tools -> Maven -> 
+	1.修改Maven Home directory 如(E:\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0)
+	2.修改user setting file和 local setting file
+
+详细参考(https://jingyan.baidu.com/album/a3a3f811cd5f0b8da2eb8abf.html?picindex=6)
