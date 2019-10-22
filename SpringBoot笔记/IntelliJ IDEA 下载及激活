@@ -1,3 +1,45 @@
 下载IntelliJ IDEA 官网下载
 破解教程 (参考https://blog.csdn.net/qq_26462167/article/details/84873112)
 
+详细教程：
+	到官网下载IntelliJ IDEA 或者 根据提供的exe文件
+
+	安装步骤：
+		1.一路next，记住安装路径，如D:\IntelliJ IDEA 2018.2.8
+		2.在Installation Options页面选择相应的launcher，一般是64
+											create Associations 选择 .java .groovy
+		3.Install ,等待安装完成
+	破解步骤：
+		注意：破解过程中要退出IDEA	
+		1.到网盘中获取补丁
+			链接：https://pan.baidu.com/s/1nLKZdHo29HywopjCXF6qRg 密码：71o8
+		2.下载下来后，copy到IDEA安装目录的bin目录下(安装目录就是上面要注意的路径)
+		3.在IDEA的bin目录下找到 idea.exe.vmoptions和idea64.exe.vmoptions 这两个文件
+		4.在文件最后追加一行内容：-javaagent:idea安装路径\bin\JetbrainsCrack-release-enc.jar (如：-javaagent:D:\IntelliJ IDEA 2018.2.8\bin\JetbrainsCrack-release-enc.jar)最后记得保存退出。 
+		5.打开IDEA，选择激活码激活，将下面内容拷贝到激活框内，点击ok
+			ThisCrackLicenseId-{
+			“licenseId”:”11011”,
+			“licenseeName”:”Wechat”,
+			“assigneeName”:”tree-deep-see-deer”,
+			“assigneeEmail”:”2378437815@qq.com”,
+			“licenseRestriction”:””,
+			“checkConcurrentUse”:false,
+			“products”:[
+			{“code”:”II”,”paidUpTo”:”2099-12-31”},
+			{“code”:”DM”,”paidUpTo”:”2099-12-31”},
+			{“code”:”AC”,”paidUpTo”:”2099-12-31”},
+			{“code”:”RS0”,”paidUpTo”:”2099-12-31”},
+			{“code”:”WS”,”paidUpTo”:”2099-12-31”},
+			{“code”:”DPN”,”paidUpTo”:”2099-12-31”},
+			{“code”:”RC”,”paidUpTo”:”2099-12-31”},
+			{“code”:”PS”,”paidUpTo”:”2099-12-31”},
+			{“code”:”DC”,”paidUpTo”:”2099-12-31”},
+			{“code”:”RM”,”paidUpTo”:”2099-12-31”},
+			{“code”:”CL”,”paidUpTo”:”2099-12-31”},
+			{“code”:”PC”,”paidUpTo”:”2099-12-31”}
+			],
+			“hash”:”2911276/0”,
+			“gracePeriodDays”:7,
+			“autoProlongated”:false}
+		6.到这里就算激活成功了，可以在IDEA主菜单页面，点击"Help-About"查看激活信息
+
