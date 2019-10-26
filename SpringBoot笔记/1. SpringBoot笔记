@@ -5,5 +5,21 @@ SpringBoot的特点
 	1.化繁为简，简化配置
 	2.备受关注，是下一代框架
 	3.微服务的入门级框架
+
+	安装环境 jdk maven
+
+	IntelliJ IDEA最好使用Ultimate版(旗舰版)，Community(社区版)功能少
+	IDEA中创建一个SpringBoot项目：
+		1.IDEA中创建一个新项目，选择Spring Initializr(如果是社区版，则没有这个选项，但是继续，和eclipse操作类似)
+		2.SpringBoot版本选择 选择RELEASE版本，左侧选择Web
+		3.项目名 和 路径
+		4.完成创建(如果Maven加载依赖太慢，可以替换镜像地址settings.xml)
+
+	如果是社区版或者是eclipse：
+		访问网址start.spring.io
+			Dependencies中搜索web 点击生成项目，然后下载下来，然后就可以用IDEA或者eclipse打开
+
+
+
 	
 	
